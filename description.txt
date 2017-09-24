@@ -1,0 +1,1 @@
+This mod adds an ignore function for players in the chat.
