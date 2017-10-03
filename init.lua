@@ -12,6 +12,10 @@ minetest.register_chatcommand("unignore", {
       names[tostring(param)] = false
     end})
 
+if not minetest.register_on_receiving_chat_message then
+    minetest.register_on_receiving_chat_message = minetest.register_on_receiving_chat_messages
+end
+
 minetest.register_on_receiving_chat_messages(function(msg)
     local name = string.split(msg, ">")[1]
     name = string.sub("test".. name, 6)
