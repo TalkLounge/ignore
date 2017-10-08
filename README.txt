@@ -1,6 +1,6 @@
 Minetest Client Mod 'ignore'
 ==================
-Version 3.0
+Version 4.0
 
 License of source code:
 ---------------------------------
